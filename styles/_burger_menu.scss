@@ -1,0 +1,60 @@
+.burger_menu{
+    font-family: 'Montserrat';
+    color: #1C2D5A;
+    min-width: 158px;
+    min-height: 278px;
+    position: absolute;
+    top:6px;
+    right:11px;
+    background-color: white;
+    padding-top: 55px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    z-index: 2;
+    animation-name: burger-show;
+    animation-duration: 1.5s;
+}
+.burger_list{
+    font-size: 12px;
+    font-weight: 500;
+    li{
+        margin-bottom: 16px;
+    }
+
+}
+.enter{
+    display: block;
+    background: transparent;
+    color: #1C2D5A;
+    border-radius: 25px;
+    width: 77px;
+    height: 27px;
+    border: 1px solid #1C2D5A;
+    font-size: 10px;
+    font-weight: 700;
+}
+.registration_burger{
+    display: block;
+    width: 119px;
+    height: 32px;
+    margin-top: 8px;
+    border-radius: 25px;
+    background-color: #39379F;
+    color:white;
+    font-size: 10px;
+    font-weight: 700;
+}
+body{
+    position: relative;
+}
+@keyframes burger-show{
+   0%{
+    transform: translateY(-278px);
+   }
+   50%{
+    transform: translateY(-139px);
+   }
+   100%{
+    transform: translateY(0);
+   }
+}

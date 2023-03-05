@@ -1,0 +1,411 @@
+.biz_upgrade{
+   background-image: url(../../img/mobi_background_after_registry.jpg); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 90px;
+   padding-top:35%;
+   height: 470px;
+   padding-left: 6%;
+   @media(min-width:1920px){
+        background-image: url(../../img/back_guys.jpg);
+         -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: cover;
+        background-repeat: no-repeat;
+        height: 837px;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 20%;
+        justify-content: center;
+        
+
+  
+   }
+}
+.biz_info{
+    font-weight: 700;
+    font-size: 21px;
+    display: block;
+    width: 280px;
+    height: 104px;
+    margin-left: 6%;
+    text-transform: uppercase;
+    color:#1C2D5A;
+    @media(min-width:1920px){
+        width: 567px;
+        height: 147px;
+        font-size: 40px;
+        margin: 0%;
+        
+
+    }
+    
+}
+.biz_btn{
+    background: #554ABF;
+    margin-left:3%;
+    color: white;
+    border-radius: 25px;
+    display: block;
+    width: 211px;
+    height: 48px;
+    margin-top: 15px;
+    @media(min-width:1920px){
+        margin: 0%;
+        margin-top: 36px;
+        letter-spacing: 1px;
+        font-size: 16px;
+        width: 278px;
+        height: 75px;
+        letter-spacing: 1px;
+    }
+}
+.biz_btn:hover{
+    animation-name: big-purple-reg;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.more{
+    margin-top: 128px;
+    color: #1C2D5A;
+    font-size: 16px;
+    font-weight: 700;
+    @media(min-width:1920px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 256px;
+    }
+    
+}
+.more_level_section{
+    background-image:url(../../img/purple_desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.more_title_container{
+    >h3{
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 29px;
+        font-weight: 24px;
+    }
+    >p{
+        margin-top: 8px;
+        text-align: center;
+    }
+    @media(min-width:1920px){
+        margin-bottom: 96px;
+        >h3{
+            font-size: 40px;
+            >br{
+                display: none;
+            }
+            
+        }
+        >p{
+            font-size: 24px;
+        }
+    }
+}
+.bonuses_img_container{
+    display: flex;
+    flex-direction: column-reverse;
+    >picture{
+        margin-top: 53px;
+        display: block;
+        align-self: center;
+    }
+    @media(min-width:1920px){
+        display: flex;
+        align-items: center;
+        width: 1598px;
+        align-self: center;
+        justify-content: space-around;
+    }
+    
+}
+.bonuses{
+    display: grid;
+    grid-template-columns: 359px 359px;
+    grid-column-gap:32px;
+    grid-row-gap: 48px;
+    overflow: scroll;
+    margin-top: 40px;
+    @media(min-width:1920px){
+        overflow:hidden;
+        width:750px;
+        min-height: 660px;
+        >p{
+            display: block;
+            width: 295px;
+            font-size: 16px;
+        }
+    }
+    
+}
+.bonus_item{
+    background: rgb(255,255,255);
+    background: linear-gradient(207deg, rgba(255,255,255,1) 68%, rgba(68,152,182,1) 100%);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    width: 257px;
+    height:142;
+    border-radius: 15px;
+    box-sizing: border-box;
+    @media(min-width:1920px){
+        box-shadow: 0px 0px 20px gray; 
+        width: 359px;
+        height: 188px;   
+    }
+
+    
+    >span{
+        display: block;
+        width: 70px;
+        height: 1px;
+        background-color: #4497B6;
+        margin-bottom: 16px;
+        margin-top: 16px;
+        
+        
+    }
+  
+}
+.level_partners_container{
+    
+    
+    padding-left: 20px;
+    padding-bottom: 100px;
+    padding-top: 128px;
+    @media(min-width:1920px){
+        background-image: none;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 256px;
+        box-sizing: border-box;
+        margin-top: 256px;
+    }
+
+    
+}
+
+.level_title{
+    margin-top: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    @media(min-width:1920px){
+        font-size: 40px;
+        margin: 0%;
+        display: block;
+        width: 567px;
+        height: 98px;
+        text-align: start;
+    }
+}
+.level_partners{
+    display: block;
+    width: 260px;
+    height: 85px;
+    line-height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 4%;
+    @media(min-width:1920px){
+        font-size: 16px;
+        width: 467px;
+        height: 60px;
+        text-align: start;
+        margin-left:0px;
+    }
+}
+.premia{
+    position: relative;
+    margin-left: 4%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    width: 168px;
+    height: 34;
+    margin-top: 20px;
+    @media(min-width: 1920px){
+        display: block;
+        width: 124px;
+        height: 40px;
+        text-align: start;
+        margin: 0%;
+        
+    }
+}
+.partners_priveleges{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    width: 163px;
+    height: 44px;
+    color: white;
+    margin-top: 56px;
+    align-self:center;
+    @media(min-width: 1920px){
+        margin: 0%;
+        width: 364px;
+        height: 29px;
+        font-size: 24px;
+        
+    }
+}
+.priveleges_list{
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: repeat(3, 80px);
+    grid-column-gap: 20px;
+    grid-row-gap:38px;
+    margin-top: 24px;
+    @media(min-width:1920px){
+        grid-template-columns: 250px 250px 250px;
+        grid-template-rows:126px 126px;
+        grid-row-gap:65px;
+        margin-top: 85px;
+    }
+    
+}
+.priveleges_item{
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+    @media(min-width:1920px){
+        >p{
+            display: block;
+            width: 250px;
+            text-align: start;
+            margin-top: 16px;
+            >br{
+                display: none;
+            }
+        }
+    }
+}
+
+.priveleges_item:nth-child(2){
+    @media(min-width:1920px){
+        order:3;
+    }
+}
+.start-now{
+    height: 270px;
+    background: url(../../img/backgruond_hands_mobi.jpg);
+    background-size: cover;
+    padding-top: 104px;
+    padding-left: 3%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    @media(min-width:1920px){
+        background: url(../../img/handshake_desk.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        height: 589px;
+    }
+}
+
+.start-now_slogan{
+    display: block;
+    width: 280px;
+    height: 87px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-bottom: 24px;
+    @media(min-width:1920px){
+        margin: 0%;
+        width: 666px;
+        height: 98px;
+        font-size: 40px;
+        margin-top: 168px;
+        margin-bottom: 32px;
+    }
+    
+}
+.registry_btn_container{
+    width: 280px;
+    text-align: center;
+    display: block;
+    margin-bottom: 117px;
+
+
+
+}
+.registry_btn_last{
+    background: linear-gradient(left,#F09642, #F0DF42);
+    color: white;
+    border-radius: 25px;
+    display: block;
+    width: 211px;
+    height: 48px;
+    @media(min-width:1920px){
+        font-size: 16px;
+        height: 75px;
+        width: 290px;
+        box-shadow: 0px 0px 20px #F09642;
+        margin: 0%;
+        margin-bottom: 216px;
+        cursor: pointer;
+    }
+
+}
+.registry_btn_last:hover{
+    @media(min-width:1920px){
+        animation-name: yellow_registry;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+}
+.registry_btn_last:active{
+    animation-name: push_button;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes big-purple-reg{
+    from{
+        background-color: #554ABF;
+        color: white;
+    }to{
+        color:#554ABF;
+        background: white;
+    }
+}
+@keyframes yellow_registry{
+    from{
+        box-shadow: 0px 0px 20px #F09642;
+    }to{
+        box-shadow: 0px 0px 90px #F09642 ;
+    }
+}
+@keyframes push_button{
+    from{
+        opacity: 1;
+    }to{
+        opacity: 0.2;
+    }
+}

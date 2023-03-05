@@ -1,0 +1,133 @@
+.footer{
+    background-color:#1C2D5A;
+    font-family: 'Montserrat', sans-serif;
+    max-height: 355px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+
+    @media(min-width:1920px){
+        height: 156px;
+        box-sizing: border-box;
+        padding: 0%;
+        padding: 45px 162px;
+        justify-content: center;
+        position: relative;
+        
+    }
+   
+}
+.logo_links_container{
+    @media(min-width:1920px){
+        width: 1598px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+        
+}
+.agreement_developers_container{
+    @media(min-width:1920px){
+        width: 1598px;
+        display:flex ;
+        height: 65px;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+}
+.footer_stick{
+    @media(min-width:1920px){
+        background-color: gray;
+        width: 1598px;
+        height: 1px;
+        position: absolute;
+        top:60%;
+    }
+    
+}
+.social_svg{
+    display: block;
+    fill: white;
+    width: 25px;
+    height: 25px;
+}
+.social_link{
+    display: block;
+}
+.social_links{
+    display: flex;
+    width:200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.user_agreements{
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    @media(min-width:1920px){
+        flex-direction: row;
+        width: 494px;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        padding: 0%;
+        margin: 0%;
+        font-size: 12px;
+        font-weight: 400px;
+        color: white;
+        
+    }
+   
+}
+.developers{
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        color:white;
+        display: block;
+        width: 224px;
+        height: 36px;
+        text-align: center;
+        display: block;
+        margin-top: 40px;
+        @media(min-width:1920px){
+            width: 400px;
+            height: 17px;
+            font-size: 14px;
+        }
+    }
+}
+.inst:hover{
+    .social_svg{
+        fill: red;
+    }
+}
+.vk:hover{
+    .social_svg{
+        fill:rgb(51, 98, 199);
+    }
+}
+.fbook:hover{
+    .social_svg{
+        fill:rgba(0, 0, 162, 0.484);
+    }
+}
+.twitter:hover{
+    .social_svg{
+        fill:#020eed;
+    }
+}

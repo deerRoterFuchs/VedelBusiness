@@ -1,0 +1,255 @@
+.modal{
+    padding: 20px 20px;
+    color: #1C2D5A;
+    font-family: 'Montserrat';
+    background: white;
+    width: 300px;
+    box-sizing: border-box;
+    position:absolute;
+}
+.modal_big{
+        width: 363px;
+        height: 157px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 20px gray;
+        background: white;
+        font-family: 'Montserrat';
+        color: #1C2D5A;
+        display: block;
+        padding-left:30px;
+        padding-right: 30px;
+        padding-top: 24px;
+        position: relative;
+        margin-top: 80px;
+}
+.modal_container{
+    position: fixed;
+    top:0vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal_container_big{
+    width:363px;
+    height:157px;
+    display: block;
+}
+.modal_links{
+    margin-top: 23px;
+    margin-right: 33px;
+    margin-left: 33px;
+
+}
+.modal_links_header{
+    margin: 0%;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 77px;
+    width: 15px;
+    
+    >a{
+        display: block;
+        margin-bottom: 14px;
+        >svg{
+            display: block;
+            width: 14px;
+            height: 14px;
+        
+        }
+    }
+}
+.container_adv_modal{
+    @media(min-width:1920px){
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 186px;
+        padding-left: 160px;
+        padding-right: 160px;}
+    
+}
+.modal_list{
+    margin-left: 37px;
+    width:197px;
+    height: 61px;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    >li{
+        width: 197px;
+        display: flex;
+
+        >p{
+            margin:0% ;
+            margin-left: 8px;
+        }
+
+    }
+}
+.close{
+    position: absolute;
+    top:24px;
+    right:30px;
+    @media (min-width:1920px){
+        top:20px;
+        right:33px;
+    }
+    
+}
+.close::after,
+.close::before{
+    content: '';
+    background-color: #1C2D5A;
+    width: 16px;
+    height: 2px;
+    position: absolute;
+}
+.close::after{
+    transform: rotate(45deg);
+}
+.close::before{
+    transform: rotate(-45deg);
+}
+.modal_title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+.modal_img{
+    display: block;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+}
+.social_link{
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    .social_svg{
+        width: 14px;
+        height: 14px;
+        display: block;
+    }
+}
+
+.modal_subtitle{
+    font-size: 14px;
+    font-weight: 500;
+}
+.modal_contact{
+    display:flex;
+    width:280px;
+    justify-content: space-between;
+    @media(min-width:1920px){
+        display:flex;
+        width:315px;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+   
+}
+
+
+.inst_footer{
+    svg{
+        fill: #1C2D5A;
+    }
+    
+    :hover{
+        svg{
+            fill:rgb(194, 93, 93)
+        }
+    }
+
+}
+.vk_footer{
+    svg{
+        fill: #1C2D5A;
+    }
+    :hover{
+        svg{
+            fill:rgb(51, 98, 199);
+        }
+    }
+}
+.fbook_footer{
+    svg{
+        fill: #1C2D5A;
+    }
+    :hover{
+        svg{
+            fill:rgba(0, 0, 162, 0.484);
+        }
+    }
+}
+.twitter_footer{
+    svg{
+        fill: #1C2D5A;
+    }
+    :hover{
+        svg{
+            fill:rgba(15, 25, 227, 0.916);
+        }
+    }
+}
+.modal_flex{
+    display: flex;
+    
+}
+.modal_hide_desk{
+    animation-name: modal-desk;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.modal_show{
+    animation-name: modal-first;
+    animation-duration: 1.5s;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+@keyframes modal-desk{
+    10%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(-800px);
+    }
+}
+@keyframes modal-first{
+    0%{
+        top:0vh;
+    }
+    70%{
+        top:60vh;
+    }
+    100%{
+        top:40vh;
+    }
+}
+@keyframes modal-hide{
+    0%{
+       top:40vh;
+    }
+    90%{
+        top:0vh;
+    }
+    100%{
+        top:-200vh;
+    }
+}
+.modal_hide{
+    animation-name: modal-hide;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
